@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		95ABE79B2EABB05E00240087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7952EABB05E00240087 /* AppDelegate.swift */; };
+		95ABE79C2EABB05E00240087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7982EABB05E00240087 /* SceneDelegate.swift */; };
+		95ABE79E2EABB05E00240087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95ABE7962EABB05E00240087 /* Assets.xcassets */; };
+		95ABE7B12EABB09F00240087 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7B02EABB09F00240087 /* CacheManager.swift */; };
+		95ABE7B32EABB0AA00240087 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7B22EABB0AA00240087 /* NetworkManager.swift */; };
+		95ABE7B52EABB0B400240087 /* HoldingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7B42EABB0B400240087 /* HoldingsRepository.swift */; };
+		95ABE7B92EABB0E500240087 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7B82EABB0E200240087 /* Double+Extension.swift */; };
+		95ABE7BB2EABB0ED00240087 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7BA2EABB0EA00240087 /* UIView+Extension.swift */; };
+		95ABE7BE2EABB10B00240087 /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7BD2EABB10B00240087 /* HoldingsViewModel.swift */; };
+		95ABE7C12EABB12E00240087 /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7C02EABB12E00240087 /* HoldingsViewController.swift */; };
+		95ABE7C32EABB14200240087 /* PortfolioSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7C22EABB14200240087 /* PortfolioSummaryView.swift */; };
+		95ABE7C62EABB16E00240087 /* HoldingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7C52EABB16E00240087 /* HoldingsCell.swift */; };
+		95ABE7C92EABB18900240087 /* Holding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7C82EABB18900240087 /* Holding.swift */; };
+		95ABE7CB2EABB19700240087 /* PortfolioSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABE7CA2EABB19700240087 /* PortfolioSummary.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		95ABE7782EABB03800240087 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,27 +44,24 @@
 		95ABE7612EABB03700240087 /* HarshVerma-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HarshVerma-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95ABE7772EABB03800240087 /* HarshVerma-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HarshVerma-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95ABE7812EABB03900240087 /* HarshVerma-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HarshVerma-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95ABE7952EABB05E00240087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95ABE7962EABB05E00240087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95ABE7972EABB05E00240087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95ABE7982EABB05E00240087 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95ABE7B02EABB09F00240087 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		95ABE7B22EABB0AA00240087 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		95ABE7B42EABB0B400240087 /* HoldingsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsRepository.swift; sourceTree = "<group>"; };
+		95ABE7B82EABB0E200240087 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		95ABE7BA2EABB0EA00240087 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		95ABE7BD2EABB10B00240087 /* HoldingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModel.swift; sourceTree = "<group>"; };
+		95ABE7C02EABB12E00240087 /* HoldingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewController.swift; sourceTree = "<group>"; };
+		95ABE7C22EABB14200240087 /* PortfolioSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioSummaryView.swift; sourceTree = "<group>"; };
+		95ABE7C52EABB16E00240087 /* HoldingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsCell.swift; sourceTree = "<group>"; };
+		95ABE7C82EABB18900240087 /* Holding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holding.swift; sourceTree = "<group>"; };
+		95ABE7CA2EABB19700240087 /* PortfolioSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		95ABE7892EABB03900240087 /* Exceptions for "HarshVerma-Task" folder in "HarshVerma-Task" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 95ABE7602EABB03700240087 /* HarshVerma-Task */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		95ABE7632EABB03700240087 /* HarshVerma-Task */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				95ABE7892EABB03900240087 /* Exceptions for "HarshVerma-Task" folder in "HarshVerma-Task" target */,
-			);
-			path = "HarshVerma-Task";
-			sourceTree = "<group>";
-		};
 		95ABE77A2EABB03800240087 /* HarshVerma-TaskTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "HarshVerma-TaskTests";
@@ -88,7 +102,7 @@
 		95ABE7582EABB03700240087 = {
 			isa = PBXGroup;
 			children = (
-				95ABE7632EABB03700240087 /* HarshVerma-Task */,
+				95ABE79A2EABB05E00240087 /* HarshVerma-Task */,
 				95ABE77A2EABB03800240087 /* HarshVerma-TaskTests */,
 				95ABE7842EABB03900240087 /* HarshVerma-TaskUITests */,
 				95ABE7622EABB03700240087 /* Products */,
@@ -105,6 +119,92 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		95ABE79A2EABB05E00240087 /* HarshVerma-Task */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7C72EABB18500240087 /* Models */,
+				95ABE7BF2EABB12A00240087 /* Views */,
+				95ABE7BC2EABB10500240087 /* ViewModel */,
+				95ABE7B72EABB0DC00240087 /* Extensions */,
+				95ABE7A12EABB07F00240087 /* Networking */,
+				95ABE7A02EABB06300240087 /* AppFiles */,
+				95ABE7962EABB05E00240087 /* Assets.xcassets */,
+				95ABE7972EABB05E00240087 /* Info.plist */,
+			);
+			path = "HarshVerma-Task";
+			sourceTree = "<group>";
+		};
+		95ABE7A02EABB06300240087 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7952EABB05E00240087 /* AppDelegate.swift */,
+				95ABE7982EABB05E00240087 /* SceneDelegate.swift */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		95ABE7A12EABB07F00240087 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7B62EABB0B900240087 /* Protocol */,
+				95ABE7B22EABB0AA00240087 /* NetworkManager.swift */,
+				95ABE7B02EABB09F00240087 /* CacheManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		95ABE7B62EABB0B900240087 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7B42EABB0B400240087 /* HoldingsRepository.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		95ABE7B72EABB0DC00240087 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7BA2EABB0EA00240087 /* UIView+Extension.swift */,
+				95ABE7B82EABB0E200240087 /* Double+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		95ABE7BC2EABB10500240087 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7BD2EABB10B00240087 /* HoldingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		95ABE7BF2EABB12A00240087 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7C42EABB16700240087 /* TableViewCell */,
+				95ABE7C22EABB14200240087 /* PortfolioSummaryView.swift */,
+				95ABE7C02EABB12E00240087 /* HoldingsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95ABE7C42EABB16700240087 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7C52EABB16E00240087 /* HoldingsCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		95ABE7C72EABB18500240087 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95ABE7CA2EABB19700240087 /* PortfolioSummary.swift */,
+				95ABE7C82EABB18900240087 /* Holding.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +219,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				95ABE7632EABB03700240087 /* HarshVerma-Task */,
 			);
 			name = "HarshVerma-Task";
 			packageProductDependencies = (
@@ -225,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95ABE79E2EABB05E00240087 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +347,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95ABE7B52EABB0B400240087 /* HoldingsRepository.swift in Sources */,
+				95ABE7BE2EABB10B00240087 /* HoldingsViewModel.swift in Sources */,
+				95ABE7BB2EABB0ED00240087 /* UIView+Extension.swift in Sources */,
+				95ABE7CB2EABB19700240087 /* PortfolioSummary.swift in Sources */,
+				95ABE79B2EABB05E00240087 /* AppDelegate.swift in Sources */,
+				95ABE7B92EABB0E500240087 /* Double+Extension.swift in Sources */,
+				95ABE7C92EABB18900240087 /* Holding.swift in Sources */,
+				95ABE7B32EABB0AA00240087 /* NetworkManager.swift in Sources */,
+				95ABE7B12EABB09F00240087 /* CacheManager.swift in Sources */,
+				95ABE7C32EABB14200240087 /* PortfolioSummaryView.swift in Sources */,
+				95ABE7C12EABB12E00240087 /* HoldingsViewController.swift in Sources */,
+				95ABE79C2EABB05E00240087 /* SceneDelegate.swift in Sources */,
+				95ABE7C62EABB16E00240087 /* HoldingsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +404,6 @@
 				INFOPLIST_FILE = "HarshVerma-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +434,6 @@
 				INFOPLIST_FILE = "HarshVerma-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
